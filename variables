@@ -1,0 +1,11 @@
+// Declaring a variable
+let numSongs;
+
+// Variable is assigned a number
+numSongs = 5;
+
+// Variable is declared and assigned a number (initialized)
+let numAlbums = 20;
+
+// Variable may be assigned a value without first being declared
+hitCount = 10;

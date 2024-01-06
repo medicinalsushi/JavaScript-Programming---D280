@@ -1,5 +1,9 @@
+//example 1 
 // Display the prompt dialog box
 let name = prompt("What is your name?");
-
 // Output to the console
 console.log("Hello, " + name + "!");
+
+//example 2
+question = "How old are you?";
+age = prompt(question)

@@ -9,3 +9,6 @@ let numAlbums = 20;
 
 // Variable may be assigned a value without first being declared
 hitCount = 10;
+
+//constant
+const slicesPerPizza = 8;

@@ -1,0 +1,22 @@
+//string - group of characters with double or single quotes
+let name = "Naya";
+
+//number - Numbers with or without decimal places	
+let highScore = 950;
+let pi = 3.14;
+
+//boolean - true or false
+let hungry = true;
+let thirsty = false;
+
+//array - list of items
+let teams = ["Broncos", "Cowboys", "49ers"];
+
+//object - collection of property and value pairs
+let movie = { title:"Sing", rating:"PG" };
+
+//undefined - Variable that has not been assigned a value	
+let message;
+
+//null - intentionally absent of value
+let book = null;

@@ -1,0 +1,15 @@
+ 
+// Single line comment
+
+/* Multi-line
+   comment
+*/
+
+
+// No semicolon is required
+//best practice - choose whether or not you will add semicolons and stick to it throughout the code
+let totalLives = 3
+
+// Two statements on the same line require a semicolon
+totalPoints = 5; totalLives = 2
+

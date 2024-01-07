@@ -1,0 +1,26 @@
+//supplemental udemy course code sample 
+//meant to be within <script> tags in html
+
+let numberGrade = prompt("What is the numerical grade?");
+
+let letterGrade = "";
+
+if(numberGrade >= 90) {
+  letterGrade = "A";
+}
+else if (numberGrade >= 80) {
+  letterGrade = "B";
+}
+else if (numberGrade >= 70) {
+  letterGrade = "C";
+}
+else if (numberGrade >= 60) {
+  letterGrade = "D";
+}
+else {
+  letterGrade = "F";
+}
+
+document.getElementById("output").innerHTML = letterGrade;
+
+//it seems like this could be done better with a loop? repeated code is bad?

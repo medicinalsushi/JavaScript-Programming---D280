@@ -1,0 +1,12 @@
+//supplemental udemy study sample code
+//<script> tag in html - so writes to innerhtml for this specific example
+//determine if a human is old enough to drink
+
+let age = prompt("How old are you");
+
+if(age>=21) {
+document.getElementByID("output").innerHTML = "<p>You are permitted to consume alcohol</p>";
+}
+else {
+document.getElementById("output").innerhtml = "<p>You are not permitted to consume alcohol</p>";
+}

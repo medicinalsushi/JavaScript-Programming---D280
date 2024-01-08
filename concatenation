@@ -1,0 +1,17 @@
+//String concatenation appends one string after the end of another string
+//if operands are numbers, + performs additions. if both are strings or only one is a string, then + will perform concatenation
+
+2 + 3
+//output will be a number 
+
+"2" + "3" 
+//output will be a string 
+
+"2" + 3
+//output will be a string
+
+//parseInt() and parseFloat() convert strings into numbers. Ex: 
+parseInt("5") + 2
+//same as 5 + 2
+parseFloat("2.4") + 6
+//same as 2.4 + 6

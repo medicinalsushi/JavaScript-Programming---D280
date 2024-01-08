@@ -10,7 +10,7 @@
 "2" + 3
 //output will be a string
 
-//parseInt() and parseFloat() convert strings into numbers. Ex: 
+//parseInt() and parseFloat() convert strings into numbers. (returns NaN if cannot be converted) Ex: 
 parseInt("5") + 2
 //same as 5 + 2
 parseFloat("2.4") + 6

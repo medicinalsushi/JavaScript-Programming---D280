@@ -1,0 +1,14 @@
+//
+
+//Exponentiation	
+//x = 2 * 2 * 2 = 8
+x = 2 ** 3;
+
+
+//Increment	
+// Same as x = x + 1
+x++;
+
+//	Decrement	
+// Same as x = x - 1
+x--;

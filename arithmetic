@@ -12,3 +12,20 @@ x++;
 //	Decrement	
 // Same as x = x - 1
 x--;
+
+//compound assignment operators
+
+// Same as x = x + 2
+x += 2;
+
+// Same as x = x - 2
+x -= 2
+
+// Same as x = x * 3
+x *= 3;
+
+// Same as x = x / 3
+x /= 3;
+
+// Same as x = x % 4
+x %= 4;

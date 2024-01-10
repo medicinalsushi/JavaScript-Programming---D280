@@ -1,0 +1,21 @@
+//if
+if (condition) {
+   // Statements to execute when condition is true 
+}
+
+
+
+//if else
+if (condition) {
+   // statements to execute when condition is true 
+}
+else {
+   // statements to execute when condition is false
+}
+
+// Braces not required around single statements
+if (vote == "M") 
+   memberCount++;
+else
+   nonMemberCount++;
+

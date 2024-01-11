@@ -1,0 +1,5 @@
+//three operands separated by a question mark (?) and colon (:)
+//If the condition evaluates to true, then the value of expression1 is returned, otherwise the value of expression2 is returned
+
+//structure
+condition ? expression1 : expression2

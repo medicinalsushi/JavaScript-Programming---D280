@@ -1,0 +1,17 @@
+//do while loop
+//executes the loop body before checking the loop's condition to determine if the loop should execute again, repeating until the condition is false
+//will always run once
+
+//do while loop structure
+do {
+   body
+} while (condition);
+
+//do while loop example
+i = 1;
+do {
+   console.log(i);
+   i++;
+} while (i <= 4);
+console.log("Done!");
+

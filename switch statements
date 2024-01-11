@@ -1,0 +1,16 @@
+//compares an expression's value to several cases using strict equality (===) 
+//executes the first matching case's statements. If no case matches, an optional default case's statements execute
+
+switch (expression) {
+   case value1:
+      // Statements executed when expression's value matches value1
+      break;   // optional
+   case value2:
+      // Statements executed when expression's value matches value2
+      break;   // optional
+   
+   // ...
+   
+   default:
+      // Statements executed when no cases match
+}

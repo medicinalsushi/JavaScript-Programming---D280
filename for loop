@@ -1,0 +1,16 @@
+//for loop
+//collects three parts — the loop variable initialization, loop condition, and loop variable update — all at the top of the loop
+//A for loop executes the initialization expression, evaluates the loop's condition, and executes the loop body if the condition is true
+//After the loop body executes, the final expression is evaluated, and the loop condition is checked to determine if the loop should execute again
+
+//for loop structure 
+for (initialization; condition; finalExpression) {
+   body
+}
+
+//for loop example 
+for (i = 1; i <= 4; i++) {
+   console.log(i);
+}
+console.log("Done!");
+

@@ -1,0 +1,22 @@
+//function - group of named statements
+//parameter - variable that supplies function with input 
+//argument - value provided to a parameter during a function call
+
+//example
+function functionName(parameter1, parameter2, ...) {
+   // Statements to execute when function is called
+
+}
+
+
+//Which function call displays the numbers 5, 4, 3, 2, 1 for the following function
+function countDown(firstNum) {
+   for (let count = firstNum; count > 0; count--) {
+      console.log(count);
+   }  
+}
+//answer: countDown(5)
+
+
+//A function may return a single value using a return statement. A function that is missing a return statement returns undefined.
+

@@ -1,0 +1,6 @@
+let groceries = ["bread", "milk", "peanut butter"];
+
+// Display all elements in groceries array
+for (let item of groceries) {
+   console.log(item);
+}

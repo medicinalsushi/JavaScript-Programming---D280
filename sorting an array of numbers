@@ -1,0 +1,9 @@
+let numbers = [200, 30, 1000, 4];
+
+// Sort based on Unicode values: [1000, 200, 30, 4]
+numbers.sort();     
+
+// Sort numbers in ascending order: [4, 30, 200, 1000]
+numbers.sort(function(a, b) {
+   return a - b;
+});

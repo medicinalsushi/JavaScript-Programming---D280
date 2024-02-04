@@ -1,0 +1,9 @@
+let scores = [80, 92, 75, 64, 88, 92];
+
+s = scores.indexOf(92);         // 1
+s = scores.indexOf(92, 2);      // 5
+s = scores.indexOf(100);        // -1
+s = scores.lastIndexOf(92);     // 5
+s = scores.lastIndexOf(92, 4);  // 1
+s = scores.lastIndexOf(50);     // -1
+

@@ -1,0 +1,6 @@
+let groceries = ["bread", "milk", "peanut butter"];
+
+// Display all elements in groceries array
+groceries.forEach(function(item, index) {
+   console.log(index + " - " + item);
+});

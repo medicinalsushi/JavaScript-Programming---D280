@@ -1,0 +1,6 @@
+let groceries = ["bread", "milk", "peanut butter"];
+
+// Display all elements in groceries array
+for (i = 0; i < groceries.length; i++) {
+   console.log(i + " - " + groceries[i]);
+}

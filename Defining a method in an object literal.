@@ -1,0 +1,15 @@
+let book = {
+   title: "Quiet",
+   author: {
+      firstName: "Susan",
+      lastName: "Cain"
+   },
+
+   // Define a method
+   getAuthorName: function() {
+      return this.author.firstName + " " + this.author.lastName;
+   }
+};
+
+// Call a method that returns "Susan Cain"
+let name = book.getAuthorName();

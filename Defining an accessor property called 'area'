@@ -1,0 +1,16 @@
+let rectangle = {
+   width: 5,
+   height: 8,
+   get area() {
+      return this.width * this.height;  
+   },
+   set area(value) {
+      // Set width and height to the square root of the value
+      this.width = Math.sqrt(value);
+      this.height = this.width;
+   }
+};
+
+let area = rectangle.area;     // Calling getter returns 40
+rectangle.area = 100;          // Calling setter sets width and height to 10
+console.log(rectangle.width);  // 10

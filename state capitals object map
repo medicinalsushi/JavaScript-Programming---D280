@@ -1,0 +1,16 @@
+
+let stateCapitals = {
+   AR: "Little Rock",
+   CO: "Denver",
+   NM: "Sante Fe"
+};
+
+console.log("CO capital is " + stateCapitals["CO"]);
+
+stateCapitals["TX"] = "Austin";
+
+console.log("All capitals:");
+for (let state in stateCapitals) { 
+   console.log(state + " is " + stateCapitals[state]);
+}
+

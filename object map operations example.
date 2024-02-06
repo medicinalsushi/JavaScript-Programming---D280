@@ -1,0 +1,25 @@
+let stateCapitals = {
+   AR: "Little Rock",
+   CO: "Denver",
+   NM: "Sante Fe"
+};
+
+let states = Object.keys(stateCapitals);
+console.log(states);          // AR,CO,NM
+console.log(states.length);   // 3
+
+// Evaluates true
+if ("NM" in stateCapitals) {
+   console.log("NM exists");   
+}
+
+// Remove the NM/Santa Fe pair
+delete stateCapitals["NM"];
+
+// Evaluates false
+if ("NM" in stateCapitals) {
+   console.log("NM exists");   
+}  
+
+// Outputs undefined
+console.log(stateCapitals["NM"]);

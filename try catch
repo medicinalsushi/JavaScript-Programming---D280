@@ -4,3 +4,23 @@ try {
 catch (exception) {
    // Handle the exception
 }
+
+
+
+//example
+
+
+function findSum(numbers, startIndex, endIndex) {
+   if (startIndex < 0) {
+      throw "startIndex is less than 0.";
+   } 
+   else if (endIndex >= numbers.length) {
+      throw "endIndex is too large.";  
+   }
+
+   let sum = 0;
+   for (let i = startIndex; i <= endIndex; i++) {
+      sum += numbers[i];
+   }
+   return sum;
+}

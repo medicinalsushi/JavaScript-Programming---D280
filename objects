@@ -1,0 +1,30 @@
+//book assigned to an empty object literal 
+let book = {};
+
+//book is assigned an object literal with three properties
+book = {
+   title: "Outliers",
+   published: 2011,
+   keywords: ["success", "high-achievers"]
+};
+
+//display title and first keyword of the book object (outliers/success)
+console.log(book.title);
+console.log(book.keywords[0]);
+
+
+//book is assigned an object literal with an embedded object literal that is assigned to the author property
+book = {
+   title: "Outliers",
+   published: 2011,
+   keywords: ["success", "high-achievers"],
+
+author: {
+   firstName: "Malcolm",
+   lastName: "Gladwell"   
+}
+
+};
+
+//display the last name of the books author 
+console.log(book.author.lastName);

@@ -1,0 +1,5 @@
+let s = "Seek and you will find.";
+s.indexOf("and");    // 5
+s.indexOf("e");      // 1 (first occurrence)
+s.lastIndexOf("e");  // 2 (last occurrence)
+s.indexOf("SEEK");   // -1 (case-sensitive search)

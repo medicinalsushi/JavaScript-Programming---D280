@@ -24,3 +24,28 @@ function findSum(numbers, startIndex, endIndex) {
    }
    return sum;
 }
+
+let nums = [1, 2, 3, 4];
+try {
+   console.log(findSum(nums, 3, 4));
+}
+catch (exception) {
+   console.log(exception);
+}
+
+console.log("Done!");
+
+endIndex is too large.
+Done!
+false
+false
+true
+let nums = [1, 2, 3, 4];
+
+console.log(findSum(nums, 0, 2));
+
+console.log(findSum(nums, 3, 4));
+
+console.log("Done!");
+
+

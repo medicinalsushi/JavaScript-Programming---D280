@@ -1,0 +1,6 @@
+try {
+   // Statements that might throw an exception
+}
+catch (exception) {
+   // Handle the exception
+}

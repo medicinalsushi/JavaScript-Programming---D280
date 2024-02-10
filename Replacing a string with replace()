@@ -1,0 +1,5 @@
+let s = "Seek and you will find.";
+s = s.replace("find", "discover");  // "Seek and you will discover"
+s = s.replace("Seek", "Search");    // "Search and you will discover"
+s = s.replace("SEARCH", "search");  // No change (case-sensitive search)
+

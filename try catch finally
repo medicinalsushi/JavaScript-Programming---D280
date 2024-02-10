@@ -1,0 +1,9 @@
+try {
+   // Statements to try
+} 
+catch (exception) {
+   // Optionally handle exceptions
+}
+finally {
+   // Code that executes no matter what
+}
